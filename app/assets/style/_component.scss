@@ -1,0 +1,70 @@
+/*btn*/
+.btn-icon, .btn-text{
+  background: transparent;
+  border: none;
+  padding: 0;
+  &:hover{
+    color: $success;
+  }
+}
+
+.btn-close {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.accordion-button {
+  &:not(.collapsed) {
+    color: $gray-900;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+/*pagination*/
+.page-link {
+  border: 1px solid $success;
+
+  &:hover {
+    border: 1px solid $success;
+  }
+
+  &:focus {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.page-item {
+  &.active .page-link {
+    background-color: $success;
+    border: 1px solid $success;
+  }
+}
+
+/*modal*/
+.modal-pic{
+  width: 141px;
+  height: 141px;
+  object-fit: cover;
+}
+
+/*dropdown*/
+.dropdown-menu{
+  min-width: auto;
+  padding: 0;
+}
+
+/*list-group*/
+.list-group-item {
+  padding: 12px;
+  &.active {
+      color: $gray-900;
+      background-color: $gray-100;
+      border-color: $gray-400;
+  }
+}

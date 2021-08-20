@@ -1,0 +1,200 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: assignment
+---
+
+<nav class="navbar navbar-light p-5 mb-2">
+  <div class="d-flex justify-content-between w-100">
+    <div class="d-flex align-items-center">
+      <h3 class="navbar-brand fw-bold">Assignment</h3>
+      <select class="form-select fw-bold border-0">
+        <option selected="">All Courses</option>
+      </select>
+    </div>
+    <div class="d-flex align-items-center">
+      <a href="#" class="material-icons me-4">
+        search
+      </a>
+      <a href="#" class="material-icons">
+        notifications_active
+      </a>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid pb-5">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <select class="form-select fw-bold border-0">
+        <option selected="">All (4)</option>
+      </select>
+    </div>
+    <p class="fs-8 text-secondary">2 comments</p>
+  </div>
+  <div class="row gx-3">
+    <div class="col-4">
+      <ul class="list-group">
+        <li class="list-group-item active">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="fs-8 mb-1">Chapter Assignment 2</p>
+              <p class="fw-bold">Please check this file…</p>
+            </div>
+            <div class="text-end">
+              <p class="fs-8 mb-2">4 hrs ago</p>
+              <p class="fs-8 text-secondary">Emily Wang</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="fs-8 mb-1">Chapter Assignment 1</p>
+              <p class="fw-bold">My Homework</p>
+            </div>
+            <div class="text-end">
+              <p class="fs-8 mb-2">12 hrs ago</p>
+              <p class="fs-8 text-secondary">David Xu</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="fs-8 mb-1">Final Assignment</p>
+              <p class="fw-bold">Have a problem with this…</p>
+            </div>
+            <div class="text-end">
+              <p class="fs-8 mb-2">18 hrs ago</p>
+              <p class="fs-8 text-secondary">Tony Wei</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </li>
+        <li class="list-group-item">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="fs-8 mb-1">Final Assignment</p>
+              <p class="fw-bold">Did I do it right?</p>
+            </div>
+            <div class="text-end">
+              <p class="fs-8 mb-2">19 hrs ago</p>
+              <p class="fs-8 text-secondary">Christina Lin</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-8 position-relative">
+      <div class="card mb-3">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div>
+            <p class="fs-8 mb-1">Chapter Assignment 2 / HTML&CSS</p>
+            <p class="fw-bold">Please check this file for me, thanks!</p>
+          </div>
+          <a href="#" class="material-icons">
+            more_vert
+          </a>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mb-0 pe-4">
+            <li class="mb-3">
+              <div class="d-flex">
+                <div class="me-2 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80" alt="" class="user-image">
+                </div>
+                <div class="card border-0 border-bottom w-100">
+                  <div class="card-body p-0">
+                    <div class="card-title mb-3 d-flex justify-content-between align-items-center">
+                      <div>
+                        <h6 class="fw-bold">Emily Wang</h6>
+                        <div class="fs-8 text-secondary">10:38 AM (4 hours ago)</div>
+                      </div>
+                      <div class="d-none">
+                        <a href="#" class="material-icons me-4">
+                          star_border
+                        </a>
+                        <a href="#" class="material-icons">
+                          edit
+                        </a>
+                      </div>
+                    </div>
+                    <div class="task-content mb-3">
+                      <p class="fs-7">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <mark>div</mark> is bigger than the height of the <mark>img</mark> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                      <a href="#" class="btn btn-light border">
+                        <span class="material-icons align-middle">attach_file</span>
+                        HW-2-David.zip
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="d-flex">
+                <div class="me-2 flex-shrink-0">
+                  <img src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" alt="" class="user-image">
+                </div>
+                <div class="card border-0 w-100">
+                  <div class="card-body p-0">
+                    <div class="card-title mb-3 d-flex justify-content-between align-items-center">
+                      <div>
+                        <h6 class="fw-bold">Andy Chen (You)</h6>
+                        <div class="fs-8 text-secondary">13:24 AM (1 hours ago)</div>
+                      </div>
+                      <div>
+                        <a href="#" class="material-icons me-4">
+                          star_border
+                        </a>
+                        <a href="#" class="material-icons">
+                          edit
+                        </a>
+                      </div>
+                    </div>
+                    <div class="task-content mb-3">
+                      <p class="fs-7">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
+                      <p>You can:</p>
+                      <ul>
+                        <li>adjust the <mark>vertical-align</mark> of the image to position it elsewhere (e.g. the <mark>middle</mark> ) or</li>
+                        <li>change the <mark>display</mark> so it isn’t inline.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <a href="#" class="material-icons me-4">
+            chevron_left
+          </a>
+          <a href="#" class="material-icons">
+            chevron_right
+          </a>
+        </div>
+        <div>
+          <div class="collapse position-absolute bottom-0 end-0 w-100 px-2" id="collapseReply">
+            <div class="card card-body p-0 border-0">
+              <div id="editor" class="h-100">
+                <p>Here goes the initial content of the editor.</p>
+              </div>
+              <div class="position-absolute ckeditor-button">
+                <button type="button" class="btn btn-outline-success fw-bold me-3 px-5 py-2" data-bs-toggle="collapse" data-bs-target="#collapseReply" aria-expanded="false" aria-controls="collapseReply">Cancel</button>
+                <button type="button" class="btn btn-success fw-bold px-5 py-2">Reply</button>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-success fw-bold me-3 px-5 py-2">Mark as read</button>
+          <button type="button" class="btn btn-success fw-bold px-5 py-2" data-bs-toggle="collapse" data-bs-target="#collapseReply" aria-expanded="false" aria-controls="collapseReply">Reply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

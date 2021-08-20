@@ -1,0 +1,16 @@
+@import "layouts/sidebar";
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    object-fit: cover
+}
+
+.table {
+    thead {
+        th {
+            padding: 0.25rem $table-cell-padding-x;
+        }
+    }
+}
